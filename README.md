@@ -9,7 +9,7 @@ int get_1st_weekday(int year)
 }
 int main()
 {
-system("Color 03F");
+system("Color 05F");
 int year,i,j,k,m=0,n;
 printf("\nEnter the year YYYY:");
 scanf("%d",&year);
