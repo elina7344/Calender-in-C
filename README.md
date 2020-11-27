@@ -25,7 +25,7 @@ for(i=0;i<12;i++)
 {
     k=day[i];
     printf("\n\n~~~~~~~~~~~~~~~~%s~~~~~~~~~~~~~~~~~\n",month[i]);
-printf("\n  Sun  Mon  Tue  Wed  Thu  Fri  Sat\n");
+printf("\n  Sun  Mon  Tue  Wed  Thurs  Fri  Sat\n");
 
 for(n=0;n<m;n++)
 
