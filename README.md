@@ -44,4 +44,40 @@ for(j=1;j<=k;j++)
 }
 n=m;
 }
+if(year % 400 == 0)
+{
+
+printf("\n\n%d is a Leap Year",year);
+}
+else if (year % 100 == 0)
+{
+    printf("\n\n%d is not a Leap Year.",year);
+}
+else if(year % 4 == 0)
+{
+    printf("\n\n%d is a Leap Year.",year);
+}
+else
+{
+ printf("\n\n%d is not a Leap Year.",year);
+}
+if(year % 400 == 0)
+{
+
+printf("\n\nThere are 366 days in the year %d",year);
+}
+else if (year % 100 == 0)
+{
+    printf("\n\nThere are 365 days in the year %d",year);
+}
+else if(year % 4 == 0)
+{
+    printf("\n\nThere are 366 days in the year %d",year);
+}
+else
+{
+ printf("\n\nThere are 365 days in the year %d",year);
+}
+return 0;
+
 }
